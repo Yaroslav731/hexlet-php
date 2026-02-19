@@ -1,0 +1,18 @@
+{
+    "name": "yaroslav/hexlet-php",
+    "description": "Educational PHP project",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Yaroslav\\HexletPhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Yaroslav"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
