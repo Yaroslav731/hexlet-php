@@ -4,9 +4,9 @@
     "type": "project",
     "license": "MIT",
     "autoload": {
-        "psr-4": {
-            "Yaroslav\\HexletPhp\\": "src/"
-        }
+        "files": [
+            "src/Runner.php"
+	]
     },
     "authors": [
         {
@@ -14,5 +14,13 @@
         }
     ],
     "minimum-stability": "stable",
-    "require": {}
+    "require": {
+        "illuminate/collections": "^11.0"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^4.0"
+    },
+    "scripts": {
+	    "phpcs": "phpcs"
+    }
 }
